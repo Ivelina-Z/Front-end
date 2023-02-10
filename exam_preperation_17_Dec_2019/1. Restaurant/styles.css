@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+body{
+    font-family: 'Poppins', sans-serif;
+    background-color: #FFD9B0;
+}
+
+.booking-form{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #111111;
+    width: 900px;
+    height: 600px;
+    border-radius: 10px;
+}
+
+img{
+    display: inline-block;
+    width: 60%;
+    height: 100%;
+    object-fit: cover;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+
+aside{
+    display: inline-block;
+    vertical-align: top;
+    width: 30%;   
+}
+
+form{
+    width: 130%;
+}
+
+input[type='submit']{
+    width: 120px;
+    height: 40px;
+    font-weight: 800;
+    border-radius: 5px;
+    background-color: #EDB77D;
+    color: #FFFFFF;
+}
+
+input{
+    display: block;
+    width: 75%;
+    margin-left: 14%;
+    margin-bottom: 24px;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: 1px solid #999999;
+    background-color: #111111;
+    color: #FFFFFF;
+    padding-left: 0;
+}
+
+
+h2{
+    width: 130%;
+    color: #FFFFFF;
+    font-size: 14px;
+    text-align: center;
+    margin: 50px 0px;
+}
+
+input[type='number'] {
+    -moz-appearance:textfield;
+}
+
+
+/* for Chrome */
+/* input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+} */
