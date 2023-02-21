@@ -1,0 +1,197 @@
+@import url(https://use.fontawesome.com/releases/v5.6.3/css/all.css);
+
+:root{
+    --orange: #e24e2a;
+    --black-logo: #2c383b;
+    --gray-light: #b2b2b2;
+    --gray-light-btn:#ececec;
+    --dark-gray-bg: #383838;
+    --light-btn-text:#21225b;
+    --light-text-orange-bg: #f5c7bc;
+    --underline-text-orange-bg: #fae8e4;
+    --light-text-underline: #fbe8e4;
+    --gray-text-gray-bg: #6c6c6c;
+    --dark-gray-text-white-bg: #555;
+    --light-gray-text-white-bg:#a2a2a2;
+    --white: #FFFFFF;
+    --green-btn-bg: #1b9772;
+    --green-txt-green-bg: #5bb499;
+    --light-green-txt-green-bg: #9bd4c5;
+}
+
+body{
+    font-family: Helvetica, sans-serif;
+    font-size: 16px;
+}
+
+a{
+    text-decoration: none;
+    color: var(--underline-text-orange-bg);
+}
+
+/* Header */
+
+header{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 16vh;
+}
+
+.logo{
+    display: flex;
+    align-items: baseline;
+}
+
+header ul{
+    display: flex;
+    gap: 2px;
+}
+
+/* Header - logo */
+
+.logo h2{
+    font-size: 3rem;
+    color: var(--black-logo);
+    padding-right: 20px;
+    border-right: 1px solid var(--gray-light);
+}
+
+.logo h3{
+    font-size: 1.4rem;
+    font-weight: 100;
+    letter-spacing: 1.8px;
+    padding-left: 20px;
+    color: var(--gray-light);
+}
+
+.logo span{
+    color: var(--black-logo);
+}
+
+/* Header - nav */
+.btn{
+    font-size: 1.5rem;
+    letter-spacing: 1.8px;
+    padding: 24px 28px;
+    cursor: pointer;
+    border: none;
+}
+
+.btn-orange{
+    background-color: var(--orange);
+    color: var(--white);
+}
+
+/* TOP */
+
+.banner-img{
+    width: 100%;   
+    height: 70vh;
+    object-fit: cover;
+}
+
+/* INFO  */
+.info{
+    background-color: var(--orange);
+    color: var(--light-text-orange-bg);
+    padding: 4% 7%;
+    font-size: 1.5rem;
+    text-align: center;
+}
+
+.underlined{
+    text-decoration: underline;
+    color: var(--underline-text-orange-bg)
+}
+
+/* SERVICES */
+
+.services{
+    background-color: var(--dark-gray-bg);
+    padding: 100px 50px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 30px;
+}
+
+.service{
+    text-align: center;
+    color: var(--gray-text-gray-bg);
+}
+
+.service p{
+    font-size: 1.3rem;
+    padding-top: 30px;
+}
+
+.service-card i{
+    background-color: var(--orange);
+    color: var(--white);
+    font-size: 5rem;
+    padding: 2rem;
+}
+
+.service-card h5{
+    color: var(--white);
+    font-size: 1.6rem;
+    margin-bottom: 20px;
+}
+
+.service-card p{
+    border-top: 2px solid var(--dark-gray-text-white-bg);
+}
+
+/* CONTACT */
+
+.contact{
+    background-color: var(--white);
+    text-align: center;
+    padding: 100px 20px;
+}
+
+.contact h1{
+    font-size: 3.5rem;
+    font-weight: normal;
+    color: var(--dark-gray-text-white-bg);
+}
+
+.subtitle{
+    font-size: 1.8rem;
+    color: var(--light-gray-text-white-bg);
+}
+
+.contact .btn-green{
+    margin: 30px;
+    padding: 24px 80px;
+    background-color: var(--green-btn-bg);
+    color: var(--white);
+    font-weight: bold;
+}
+
+/* SERVICE INFO */
+
+.service-info h4{
+    font-size: 1.8rem;
+    color: var(--white);
+    margin-bottom: 20px;
+}
+
+/* FOOTER */
+
+footer{
+    height: 26vh;
+    background-color: var(--green-btn-bg);
+    padding: 12vh 0;
+}
+
+footer p{
+    text-align: center;
+    font-size: 1.2rem;
+    letter-spacing: 2px;
+    color: var(--green-txt-green-bg); 
+}
+
+.lighter-green{
+    color: var(--light-green-txt-green-bg)
+}
